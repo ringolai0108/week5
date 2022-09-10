@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap');
+
+
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+
+.wrapper {
+    max-width: 1282px;
+    margin: 0 auto;
+    border: 1px solid #ced4da;
+}
+
+.font-mono{
+    font-family: 'Roboto Mono', monospace;
+  }
+.nav{
+  position: fixed;
+  min-width: 296px;
+  height: 100vh;
+  img{
+
+
+  }
+  a{
+    display: flex;
+    padding-left: 32px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+
+  }
+  .nav-item{
+    margin-bottom: 22px;
+
+  }
+  .nav-link{
+    // padding: 12px 32px;
+    // margin-bottom: 22px;
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  .nav-link.active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 32px;
+    border-left: 4px solid #198754;
+
+  }
+
+
+  .userinfo{
+    height: 40px;
+    width: 40px;
+    background-image: url(../images/andychen.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // margin-bottom: 32px;
+  }
+
+
+}
+.userinfo{
+  height: 40px;
+  width: 40px;
+  background-image: url(../images/andychen.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  // margin-bottom: 32px;
+}
+
+
